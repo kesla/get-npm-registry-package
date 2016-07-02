@@ -1,0 +1,45 @@
+{
+  "name": "get-npm-registry-package",
+  "version": "0.0.0",
+  "description": "Get a npm registry package",
+  "main": "dist/index.js",
+  "bin": {
+    "get-npm-registry-package": "bin/cli.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-tape-runner": "^2.0.1",
+    "got": "^6.3.0",
+    "npm-package-arg": "^4.2.0",
+    "registry-auth-token": "^2.0.0",
+    "registry-url": "^3.1.0",
+    "semistandard": "^8.0.0",
+    "snazzy": "^4.0.0",
+    "tapava": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-preset-es2015": "^6.9.0",
+    "semistandard": "^8.0.0",
+    "snazzy": "^4.0.0"
+  },
+  "scripts": {
+    "test": "semistandard | snazzy",
+    "build": "rm -rf dist && mkdir -p dist && babel lib --out-dir dist",
+    "watch": "rm -rf dist && mkdir -p dist && babel -w lib --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kesla/get-npm-registry-package.git"
+  },
+  "author": "David Björklund <david.bjorklund@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kesla/get-npm-registry-package/issues"
+  },
+  "homepage": "https://github.com/kesla/get-npm-registry-package#readme"
+}
