@@ -7,17 +7,10 @@
     "get-npm-registry-package": "bin/cli.js"
   },
   "dependencies": {
-    "babel-cli": "^6.10.1",
-    "babel-core": "^6.10.4",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-tape-runner": "^2.0.1",
     "got": "^6.3.0",
     "npm-package-arg": "^4.2.0",
     "registry-auth-token": "^2.0.0",
-    "registry-url": "^3.1.0",
-    "semistandard": "^8.0.0",
-    "snazzy": "^4.0.0",
-    "tapava": "^2.2.0"
+    "registry-url": "^3.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
