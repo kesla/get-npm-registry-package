@@ -17,11 +17,10 @@
     "babel-cli": "^6.10.1",
     "babel-core": "^6.10.4",
     "babel-preset-es2015": "^6.9.0",
-    "semistandard": "^8.0.0",
-    "snazzy": "^4.0.0"
+    "xo": "^0.16.0"
   },
   "scripts": {
-    "test": "semistandard | snazzy",
+    "test": "xo",
     "build": "rm -rf dist && mkdir -p dist && babel lib --out-dir dist",
     "watch": "rm -rf dist && mkdir -p dist && babel -w lib --out-dir dist",
     "prepublish": "npm run build"
@@ -35,5 +34,9 @@
   "bugs": {
     "url": "https://github.com/kesla/get-npm-registry-package/issues"
   },
-  "homepage": "https://github.com/kesla/get-npm-registry-package#readme"
+  "homepage": "https://github.com/kesla/get-npm-registry-package#readme",
+  "xo": {
+    "esnext": true,
+    "space": true
+  }
 }
