@@ -23,7 +23,7 @@
     "babel-tape-runner": "^2.0.1",
     "http-test-server": "^1.0.1",
     "tapava": "^2.2.0",
-    "xo": "^0.16.0"
+    "xo": "^0.17.0"
   },
   "scripts": {
     "test": "xo && babel-tape-runner test/test.js",
