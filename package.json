@@ -1,6 +1,6 @@
 {
   "name": "get-npm-registry-package",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Get a npm registry package",
   "main": "dist/index.js",
   "bin": {
@@ -10,8 +10,8 @@
     "got": "^6.3.0",
     "http-https-agent": "^1.0.1",
     "npm-package-arg": "^4.2.0",
-    "registry-auth-token": "^3.0.1",
     "registry-url": "^3.1.0",
+    "registry-info": "^1.0.0",
     "url-join": "^1.1.0"
   },
   "devDependencies": {
