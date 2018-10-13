@@ -15,14 +15,13 @@
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",
-    "babel-core": "^6.10.4",
+    "babel-core": "^6.26.3",
     "babel-plugin-syntax-async-functions": "^6.13.0",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-preset-es2015": "^6.9.0",
     "babel-tape-runner": "^2.0.1",
     "http-test-server": "^1.0.1",
-    "tapava": "^2.2.0",
-    "xo": "^0.16.0"
+    "tapava": "^2.2.0"
   },
   "scripts": {
     "test": "xo && babel-tape-runner test/test.js",
@@ -39,9 +38,5 @@
   "bugs": {
     "url": "https://github.com/kesla/get-npm-registry-package/issues"
   },
-  "homepage": "https://github.com/kesla/get-npm-registry-package#readme",
-  "xo": {
-    "esnext": true,
-    "space": true
-  }
+  "homepage": "https://github.com/kesla/get-npm-registry-package#readme"
 }
