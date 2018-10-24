@@ -7,8 +7,7 @@
     "get-npm-registry-package": "bin/cli.js"
   },
   "dependencies": {
-    "got": "^6.3.0",
-    "http-https-agent": "^1.0.1",
+    "got": "^8.3.2",
     "npm-package-arg": "^4.2.0",
     "registry-info": "^1.0.0",
     "url-join": "^1.1.0"
